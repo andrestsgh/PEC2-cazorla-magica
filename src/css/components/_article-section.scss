@@ -28,6 +28,7 @@
 
     .line-vertical {
       stroke: $color-primary-green;
+      stroke-width: 4;
       stroke-dasharray: 200;
       stroke-dashoffset: 200;
       animation: line-vertical-move 1.5s ease-in forwards;
@@ -35,6 +36,7 @@
 
     .line-horizontal {
       stroke: $color-primary-green;
+      stroke-width: 15;
       stroke-dasharray: 200;
       stroke-dashoffset: 200;
       animation: line-horizontal-move 1.5s ease-in forwards;

@@ -117,7 +117,18 @@
           </div>
           <div class="article-section__container-info">
             <div class="article-section__container-frame">
-                <img class="article-section__container-frame-photo" src="/src/assets/images/cazorla-museos-quebrantahuesos.jpg" alt="">
+              <picture>
+                <source 
+                  media="(max-width: 767px)" 
+                  srcset="/src/assets/images/cazorla-museos-quebrantahuesos-480w.jpg">
+                <source 
+                  media="(min-width: 768px)" 
+                  srcset="/src/assets/images/cazorla-museos-quebrantahuesos-768w.jpg">
+                <img 
+                  class="article-section__container-frame-photo" 
+                  src="/src/assets/images/cazorla-museos-quebrantahuesos-768w.jpg" 
+                  alt="Museos de Cazorla y Quebrantahuesos">
+              </picture>
             </div>
             <p class="article-section__container-description">Es un auténtico placer pasear por sus estrechas y empinadas calles plenas de sabor 
               arábigo-andaluz; grabar en la retina o recoger con sus cámaras imágenes, una y mil, de singular encanto; retener 
